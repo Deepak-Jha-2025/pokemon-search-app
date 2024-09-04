@@ -217,3 +217,52 @@ td, th {
     width: 75px;
   }
 }
+
+/* For small devices (mobile phones) */
+@media screen and (max-width: 549px) {
+    .container {
+      width: 95%;
+      margin: 20px;
+    }
+  
+    #search-input {
+      width: calc(100% - 100px);
+      font-size: 14px;
+    }
+  
+    #search-button {
+      width: 90px;
+      font-size: 14px;
+    }
+  
+    .top-container, .bottom-container {
+      width: 100%;
+      min-height: auto;
+    }
+  
+    .name-and-id {
+      font-size: 1rem;
+    }
+  
+    .size {
+      font-size: 0.8rem;
+    }
+  
+    #sprite {
+      width: 150px;
+    }
+  
+    .type {
+      width: auto;
+      font-size: 0.65rem;
+      padding: 4px;
+    }
+  
+    table {
+      font-size: 0.9rem;
+    }
+  
+    td, th {
+      padding: 6px;
+    }
+  }
